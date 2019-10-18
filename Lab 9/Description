@@ -1,0 +1,11 @@
+The list and auto-saved file are shared
+     Use a lock!
+        • Lock whenever you change the list or handle the list in the auto-save thread/function.
+        • Also, lock when you handle (read or write) the auto-saved file.
+     Cancel the auto-saving thread before you save the list at the end.
+     Use the lock to guarantee that you are not in the middle of saving the data to the temporary file when you cancel the thread.
+    
+Requirements
+     The name of the auto-saved file could be an argument to the program (argv[2]) or be constant (temp.bin).
+     The file should be binary. Use fwrite to write each node to the file.
+     Add an option to your program and create a new function to read the binary file (with fread into a temp node) and show the contents on the screen.•Don’t forget the lock when reading the file!
