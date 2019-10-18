@@ -1,0 +1,21 @@
+Division Test
+  Do 10 times
+    Generate two numbers between 0 and 12 randomly–divisor (cannot be zero) and quotient
+    Output the dividend (divisor * quotient) and the divisor
+    Input the answer
+    Compare the answer with the quotient
+    Output right or wrong
+    If the answer is wrong, output the quotient
+    Count the number of correct answers
+  Show the total score to the user
+  
+  To generate the random numbers
+    divisor = rand ( ) % 12 + 1;
+    quotient = rand ( ) % 13;
+    before the loop, call srand once
+      srand ((int) time (NULL));
+      
+ Create a function to handle each division
+    The main function generates the numbers and passes them as arguments to the division function
+    The division function returns 1 if the user is right and 0 if the user is wrong
+    The main function counts the number of right answers in the loop
