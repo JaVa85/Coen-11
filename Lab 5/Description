@@ -1,0 +1,13 @@
+The waiting list is created interactively with the following commands
+     insert name number– insert a node with the name and number of people specified
+     search size – extract (show and delete) oldest node with a number <= size
+     list– print the list, name and number, from oldest to newest
+     quit– quit
+    
+Do not allow names to repeat
+   Check the list before inserting
+Keep your list in the oldest-to-newest order
+   Always insert a new entry at the end
+   A tail pointer pointing to the last node makes it more efficient
+To list
+   Traverse the list using the pointers
