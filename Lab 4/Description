@@ -1,0 +1,15 @@
+People List -- commands 
+    1 – to input a person 
+        » Name, Age, Status 
+    2 – to delete a person 
+        » Name 
+    3 – to show the current list of info 
+    4 – to quit 
+    
+Your program keeps a counter,which indicates how many elements are in the list 
+According to the command, the program 
+    1 – insert an element at the position indicated by counter and increase the counter 
+    2 – delete the element with the given name 
+        - to keep all the elements together, copy the last one to the deleted one and decrease the counter 
+    3 – show all the elements, from position zero to counter-1 
+    4 - quit
