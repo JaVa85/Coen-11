@@ -1,0 +1,24 @@
+The waiting list is created interactively with the following commands 
+  1) <name> <number> 
+    • Adds the name and number of people specified to the bottom of the list 
+  2) <size> 
+    • Removes (show and delete) oldest entry which fits the size of the table 
+  3) 
+    •Shows the list, name and number, from oldest to newest 
+  4)
+    •Quits 
+    
+Requirements 
+  • Global variables: 2 arrays and a counter 
+  • Loop forever accepting commands 
+  • 3 functions •insert, remove, and list
+  • Do not allow names to repeat 
+  • List mechanism 
+      •Your list should stay in the oldest-to-newest order 
+          –Always insert a new entry at the bottom 
+          –Always shift entries up after deleting one 
+          
+Extra Credit 
+  • Give the next table available to the largest entry that fits its size 
+      • If there are more than one with the same largest size, the oldest one should be selected 
+  • Add a comment with an explanation of how you did it. 
