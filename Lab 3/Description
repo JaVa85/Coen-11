@@ -1,0 +1,13 @@
+ Same functionality as Lab 2, but add one more command
+     The waiting list is created interactively with the following commands
+        • 1, 2, 3–Same as in lab 2
+        • 4 <size>–Show the names in the list that are waiting for a table to fit <size> people.
+        • 5–Quits
+        
+ Same requirements as Lab 2
+
+ New requirements
+     Global variables
+        • array of structures
+        • counter
+     Use a struct pointer to traverse the array in each function
