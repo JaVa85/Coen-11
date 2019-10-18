@@ -1,0 +1,12 @@
+Requirements
+   Use same insert function for inserting information from the file and from the keyboard.
+   Your insert function should have the following type:
+      • void insert (char *, int);
+   Read the name and number to local variables (char array and int) before calling the insert function.
+   Names cannot repeat!
+      • Need to deal with that before calling function insert
+   Use function fseek to read the beginning of the file (header) before reading the data (names/numbers).
+      • Type <man fseek> to learn how to use the function
+   Add two functions•void save_data (char *);
+      • void read_data (char *);
+   Both receive the name of the file as argument.
