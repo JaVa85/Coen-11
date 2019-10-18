@@ -1,0 +1,14 @@
+The waiting list is created interactively with the following commands
+     1 name number – insert a node with the name and number of people specified in the corresponding list
+     2 table_size– show and delete the oldest node with number<= table_size from the best list (start from the closest and move up)
+     3 – print the list for each range: name and number, from oldest to newest
+     4 character (new) – count the occurrences of the given character in the names
+     5 – show all the names backwards
+     6 – save and quit
+  
+Requirements
+     Array of lists
+     Names cannot repeat
+     Free all the nodes before quitting
+        •(new) the function must be recursive
+    (new) When showing all the names backwards, use a recursive function which should be called for each name
