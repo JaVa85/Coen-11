@@ -1,0 +1,10 @@
+The waiting list is created interactively with the following commands
+     1 name number – insert a node with the name and number of people specified in the corresponding list
+     2 table_size – show and delete the oldest node with number <= table_size from the best list (start from the closest and move up)
+     3 – print the list for each range: name and number, from oldest to newest
+     4 – save and quit
+    
+Requirements
+   Array of lists
+   Names cannot repeat
+   Free all the nodes before quitting
